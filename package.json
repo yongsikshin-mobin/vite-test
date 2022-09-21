@@ -24,7 +24,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn eslint"
+      "pre-commit": "yarn lint"
     }
   },
   "packageManager": "yarn@3.2.3"
