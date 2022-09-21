@@ -13,8 +13,8 @@
 export default {
     props: {
         msg: {
-          type: String,
-          default: '',
+            type: String,
+            default: "",
         }
     },
     data() {
