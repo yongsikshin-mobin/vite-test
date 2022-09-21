@@ -24,7 +24,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
+      "pre-commit": "dir"
     }
   },
   "packageManager": "yarn@3.2.3"
