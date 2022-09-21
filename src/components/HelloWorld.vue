@@ -2,7 +2,7 @@
     <div>
         <h1>{{ msg }} 22 33 </h1>
         <button type="button" @click="count++">
-            count is {{ count }}ssdf
+            count is {{ count }}ssdfsdf
         </button>
     </div>
 </template>
