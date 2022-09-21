@@ -2,7 +2,7 @@
     <div>
         <h1>{{ msg }} 22 33 </h1>
         <button type="button" @click="count++">
-            count is {{ count }}ssdfsdfdfsdf
+            count is {{ count }}ssdfsdfdfsdfsdfsdf
         </button>
     </div>
 </template>
@@ -22,7 +22,4 @@ export default {
 </script>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
 </style>
