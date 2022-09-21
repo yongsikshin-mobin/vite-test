@@ -1,0 +1,14 @@
+root = true
+
+[*]
+charset = utf-8
+
+[*.{js,jsx,ts,tsx,vue,json,mjs,cjs}]
+indent_style = space
+indent_size = 4 #여백은 스페이스 4칸
+trim_trailing_whitespace = true #문자 앞 공백 제거
+insert_final_newline = true #파일 저장시 끝은 새줄로 끝
+ij_javascript_use_semicolon_after_statement = true
+ij_javascript_force_semicolon_style = true
+ij_javascript_use_double_quotes = true
+ij_javascript_force_quote_style = true
