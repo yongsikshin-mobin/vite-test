@@ -7,7 +7,6 @@ module.exports = {
         'plugin:vue/recommended',
     ],
     rules: {
-        "indent": ["warn", 4],
         "semi": ["error", "always"],
         "quotes": ["error", "double"],
         "vue/html-indent": [
@@ -20,6 +19,11 @@ module.exports = {
                 alignAttributesVertically: true,
                 ignores: [],
             }
+        ],
+        "vue/script-indent": [
+            "warn",
+            4,
+            {"baseIndent": 1}
         ]
     },
 }

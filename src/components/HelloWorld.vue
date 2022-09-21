@@ -10,29 +10,29 @@
     </div>
 </template>
 <script>
-export default {
-    props: {
-        msg: {
-            type: String,
-            default: "  sd",
-        }
-    },
-    data() {
-        console.log("test");
-        console.log("test");
-        console.log("test");
-        console.log("test");
-
-        console.log(import.meta.env.VITE_SOME_KEY);
-        return {
-            count: 0,
-            test: {
-                test: 1,
-                ttt: 3
+    export default {
+        props: {
+            msg: {
+                type: String,
+                default: "  sd"
             }
-        };
-    },
-};
+        },
+        data() {
+            console.log("test");
+            console.log("test");
+            console.log("test");
+            console.log("test");
+
+            console.log(import.meta.env.VITE_SOME_KEY);
+            return {
+                count: 0,
+                test: {
+                    test: 1,
+                    ttt: 3
+                }
+            };
+        }
+    };
 </script>
 
 <style scoped>
