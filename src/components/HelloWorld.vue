@@ -1,7 +1,10 @@
 <template>
     <div>
         <h1>{{ msg }} 22 33 </h1>
-        <button type="button" @click="count++">
+        <button
+            type="button"
+            @click="count++"
+        >
             count is {{ count }}ssdfsdfdfsdfsdfsdfsdfsdfsdfsdf
         </button>
     </div>
