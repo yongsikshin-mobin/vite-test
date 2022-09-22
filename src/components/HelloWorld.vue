@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h1>{{ msg }} 22 33 </h1>
+        <h1 class="font-30">
+            {{ msg }} 22 33
+        </h1>
         <button
             type="button"
             @click="chagePassword"
@@ -47,6 +49,12 @@
     };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+    $len  : 100;
+    @for $i from 1 through $len {
+        .font-#{$i} {
+            font-size: $i + px;
+        }
+    }
 
 </style>
