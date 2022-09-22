@@ -34,3 +34,6 @@ dist-ssr
 !.yarn/sdks
 !.yarn/versions
 !.yarn/unplugged
+
+# vite nodemodule
+node_modules/.vite
