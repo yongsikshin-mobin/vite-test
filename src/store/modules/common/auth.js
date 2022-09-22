@@ -10,16 +10,14 @@ const getters = {
 
 const actions = {
     LOGIN({commit}, data) {
-        console.log(commit);
         console.log("actions/SET_LOGIN call", data);
-        // commit("SET_LOGIN", "SET_LOGIN 테스트");
-        return null;
+        commit("SET_LOGIN", "SET_LOGIN 테스트");
     },
 };
 
 const mutations = {
     SET_LOGIN(state, result_data) {
-        console.log("state ==", state, result_data);
+        console.log("state ==", result_data);
         state.token = "테스트중입니다.";
     },
 };

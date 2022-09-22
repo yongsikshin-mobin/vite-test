@@ -5,12 +5,13 @@
             type="button"
             @click="chagePassword"
         >
-            count is {{ count }}ssdfsdfdfsdfsdddfsdfsdfsdfsdfsdf
+            count is {{ count }}
         </button>
+        getToken == {{ GET_TOKEN }}
     </div>
 </template>
 <script>
-    import {mapActions} from "vuex";
+    import {mapActions, mapGetters} from "vuex";
     export default {
         props: {
             msg: {
@@ -29,13 +30,18 @@
                 }
             };
         },
+        computed: {
+            ...mapGetters({
+                GET_TOKEN: "commonAuth/GET_TOKEN",
+            })
+        },
         methods: {
             ...mapActions({
                 LOGIN: "commonAuth/LOGIN",
             }),
             chagePassword() {
-                console.log("chage paswoord call", this);
-                this.LOGIN();
+                console.log("this gettoken", this.GET_TOKEN);
+                this.LOGIN("TEst data");
             },
         }
     };
