@@ -2,9 +2,9 @@
     <div class="main-layout-container">
         <div>left 화면</div>
         <div>
-            <MainLayoutHeader/>
-            <MainLayoutBody/>
-            <MainLayoutFooter/>
+            <MainLayoutHeader />
+            <MainLayoutBody />
+            <MainLayoutFooter />
         </div>
     </div>
 </template>
@@ -27,6 +27,7 @@
         width: fit-content;
         height: 100vh;
     }
+
     @media screen and (max-width: 1080px) {
         .main-layout-container > div:first-child {
             display: none;
