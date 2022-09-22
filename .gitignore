@@ -21,3 +21,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# local env
+.env.local
+
+# using zero install
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
