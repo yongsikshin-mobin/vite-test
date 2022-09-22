@@ -1,5 +1,5 @@
 import MainLayout from "../../layout/main/MainLayout.vue";
-import MainPage from "../../src/pages/MainPage.vue";
+import MainPage from "../pages/MainPage.vue";
 
 const routes = [
     {

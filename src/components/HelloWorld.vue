@@ -3,13 +3,14 @@
         <h1>{{ msg }} 22 33 </h1>
         <button
             type="button"
-            @click="count++"
+            @click="chagePassword"
         >
             count is {{ count }}ssdfsdfdfsdfsdddfsdfsdfsdfsdfsdf
         </button>
     </div>
 </template>
 <script>
+    import {mapActions} from "vuex";
     export default {
         props: {
             msg: {
@@ -19,10 +20,6 @@
         },
         data() {
             console.log("test");
-            console.log("test");
-            console.log("test");
-            console.log("test");
-
             console.log(import.meta.env.VITE_SOME_KEY);
             return {
                 count: 0,
@@ -31,6 +28,15 @@
                     ttt: 3
                 }
             };
+        },
+        methods: {
+            ...mapActions({
+                LOGIN: "commonAuth/LOGIN",
+            }),
+            chagePassword() {
+                console.log("chage paswoord call", this);
+                this.LOGIN();
+            },
         }
     };
 </script>
