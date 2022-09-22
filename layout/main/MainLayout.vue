@@ -25,6 +25,7 @@
         display: flex;
         margin: auto;
         width: fit-content;
+        height: 100vh;
     }
     @media screen and (max-width: 1080px) {
         .main-layout-container > div:first-child {
