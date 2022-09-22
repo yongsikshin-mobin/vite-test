@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["axios", "npm:0.27.2"],\
+            ["dayjs", "npm:1.11.5"],\
             ["eslint", "npm:8.23.1"],\
             ["eslint-plugin-vue", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:9.5.1"],\
             ["husky", "npm:8.0.1"],\
@@ -2316,6 +2317,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/csstype-npm-3.1.1-3857baf48b-1f7b4f5fdd.zip/node_modules/csstype/",\
           "packageDependencies": [\
             ["csstype", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dayjs", [\
+        ["npm:1.11.5", {\
+          "packageLocation": "./.yarn/cache/dayjs-npm-1.11.5-a825142dc5-e3bbaa7b48.zip/node_modules/dayjs/",\
+          "packageDependencies": [\
+            ["dayjs", "npm:1.11.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5034,6 +5044,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["vite-base", "workspace:."],\
             ["axios", "npm:0.27.2"],\
+            ["dayjs", "npm:1.11.5"],\
             ["eslint", "npm:8.23.1"],\
             ["eslint-plugin-vue", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:9.5.1"],\
             ["husky", "npm:8.0.1"],\
