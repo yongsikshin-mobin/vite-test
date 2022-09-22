@@ -3674,6 +3674,7 @@ __metadata:
     vite-plugin-eslint: ^1.8.1
     vite-plugin-vue2: ^2.0.2
     vue: ^2.7.10
+    vue-router: ^3.2.0
     vue-template-compiler: ^2.7.10
   languageName: unknown
   linkType: soft
@@ -3778,6 +3779,13 @@ __metadata:
   peerDependencies:
     eslint: ">=6.0.0"
   checksum: e2e6b05989294c4439d91283a78a0cb444cfba30f2715a5be1950d7815cadb5c8f449d9362a92bdd163cb8944abaac73bb076ce3c27b27586eaa4560002e6dfd
+  languageName: node
+  linkType: hard
+
+"vue-router@npm:^3.2.0":
+  version: 3.6.5
+  resolution: "vue-router@npm:3.6.5"
+  checksum: b014ba4cba6838a4a6b7a2352b18982c2fd8bbbd6287e09c510845895d28f1c141fefb88369d1875c0cb6c7336c8536f614c8d1f5ac1c8709d60b4f945c486fb
   languageName: node
   linkType: hard
 

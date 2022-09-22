@@ -1,10 +1,10 @@
 module.exports = {
     env: {
-        node: true,
+        node: true
     },
     extends: [
-        'eslint:recommended',
-        'plugin:vue/recommended',
+        "eslint:recommended",
+        "plugin:vue/recommended"
     ],
     rules: {
         "semi": ["error", "always"],
@@ -17,13 +17,13 @@ module.exports = {
                 baseIndent: 1,
                 closeBracket: 0,
                 alignAttributesVertically: true,
-                ignores: [],
+                ignores: []
             }
         ],
         "vue/script-indent": [
             "warn",
             4,
-            {"baseIndent": 1}
+            { "baseIndent": 1 }
         ]
-    },
-}
+    }
+};

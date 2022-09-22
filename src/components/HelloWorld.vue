@@ -5,7 +5,7 @@
             type="button"
             @click="count++"
         >
-            count is {{ count }}ssdfsdfdfsdfsdfsdfsdfsdfsdfsdf
+            count is {{ count }}ssdfsdfdfsdfsdddfsdfsdfsdfsdfsdf
         </button>
     </div>
 </template>

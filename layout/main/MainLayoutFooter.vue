@@ -1,14 +1,13 @@
 <template>
-    <div>
-        <router-view />
-    </div>
+    <div>나능푸터</div>
 </template>
 
 <script>
     export default {
-        name: "App"
+        name: "MainLayoutFooter"
     };
 </script>
 
 <style scoped>
+
 </style>

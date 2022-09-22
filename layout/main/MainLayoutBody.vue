@@ -1,14 +1,15 @@
 <template>
     <div>
-        <router-view />
+        <router-view msg="Vite + Vue" />
     </div>
 </template>
 
 <script>
     export default {
-        name: "App"
+        name: "MainLayoutBody"
     };
 </script>
 
 <style scoped>
+
 </style>
