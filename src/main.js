@@ -2,9 +2,10 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router/index.js";
 import store from "./store/index.js";
-import common from "./plugin/dayjs.js";
+import pluginDayjs from "./plugin/dayjs.js";
+import "./style.css";
 
-Vue.use(common);
+Vue.use(pluginDayjs);
 Vue.config.productionTip = false;
 new Vue({
     router,
