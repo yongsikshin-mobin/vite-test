@@ -5,6 +5,7 @@
 </template>
 
 <script>
+    import "./style/helper.scss";
     export default {
         name: "App"
     };
