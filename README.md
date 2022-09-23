@@ -29,6 +29,9 @@ src - api -> rest api call
     - store -> vuex modules
     - .editorconfig -> editorconfig setting (단축키 ctrl+alt+l)
     - .eslintrc.cjs -> lint setting
+    - style - helper.scss -> bootstrap helper css override, helper class 
+            - theme.scss  -> 테마 색상 변수 선언 및 공통 css
+    
 index.html -> 최상위 템플릿
 dist -> yarn build시 생성 운영배포시 필요
 .yarn, node_modules -> package library

@@ -1,7 +1,11 @@
 <template>
     <div class="main-layout-container">
         <div>left 화면</div>
-        <div>
+        <div
+            class="btn-primary"
+            style="align-self: auto"
+            @click="$attrs"
+        >
             <MainLayoutHeader />
             <MainLayoutBody />
             <MainLayoutFooter />
