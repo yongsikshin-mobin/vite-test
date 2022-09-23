@@ -8,6 +8,7 @@
     import "bootstrap";
     import "bootstrap/dist/css/bootstrap.min.css";
     import "./style/helper.scss";
+    import "./style/theme.scss";
     export default {
         name: "App"
     };

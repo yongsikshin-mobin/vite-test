@@ -17,3 +17,6 @@ ij_vue_interpolation_wrap = normal # 뷰 태그 내 변수 앞뒤 공백 {{ 여�
 ij_html_space_inside_empty_tag = true # 닫기태그 없이 혼자 닫히는 html 태그 /> 앞 공백추가
 ij_javascript_spaces_within_object_literal_braces = true # 오브젝트 앞뒤로 공백 추가
 ij_javascript_object_literal_wrap = normal # 오브젝트 줄바꿈처리 규칙
+ij_html_attribute_wrap = split_into_lines # 속성 줄 바꿈
+ij_html_new_line_before_first_attribute = when_multiline # 속성앞 줄바꿈 (when_multiline의 경우)
+ij_html_new_line_after_last_attribute = when_multiline # 속성뒤 줄바꿈 (when_multiline의 경우)
