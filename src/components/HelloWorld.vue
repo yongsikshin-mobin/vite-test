@@ -13,7 +13,8 @@
     </div>
 </template>
 <script>
-    import {mapActions, mapGetters} from "vuex";
+    import { mapActions, mapGetters } from "vuex";
+
     export default {
         props: {
             msg: {
@@ -34,23 +35,23 @@
         },
         computed: {
             ...mapGetters({
-                GET_TOKEN: "commonAuth/GET_TOKEN",
+                GET_TOKEN: "commonAuth/GET_TOKEN"
             })
         },
         methods: {
             ...mapActions({
-                LOGIN: "commonAuth/LOGIN",
+                LOGIN: "commonAuth/LOGIN"
             }),
             chagePassword() {
                 console.log("this gettoken", this.GET_TOKEN);
                 this.LOGIN("TEst data");
-            },
+            }
         }
     };
 </script>
 
 <style lang="scss" scoped>
-    $len  : 100;
+    $len: 100;
     @for $i from 1 through $len {
         .font-#{$i} {
             font-size: $i + px;
