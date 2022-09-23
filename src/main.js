@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router/index.js";
 import store from "./store/index.js";
 import pluginDayjs from "./plugin/dayjs.js";
-import "./style.css";
+import "./style/helper.scss";
 
 Vue.use(pluginDayjs);
 Vue.config.productionTip = false;
