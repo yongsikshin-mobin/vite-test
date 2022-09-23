@@ -6,8 +6,9 @@
 # yarn 설치
 npm install -g yarn
 
-# 초기 실행시 yarn berry setting
+# 초기 실행시 yarn, husky 세팅
 yarn set version berry
+yarn prepare
 
 # localhost serve
 yarn dev
@@ -31,4 +32,9 @@ src - api -> rest api call
 index.html -> 최상위 템플릿
 dist -> yarn build시 생성 운영배포시 필요
 .yarn, node_modules -> package library
+```
+
+```
+git commit 시 husky 자동 실행 ->
+
 ```
