@@ -3,6 +3,9 @@
 ### Getting Started
 
 ```
+# yarn 설치
+npm install -g yarn
+
 # 초기 실행시 yarn berry setting
 yarn set version berry
 
@@ -23,5 +26,5 @@ src - api -> rest api call
     - main.js -> Vue instance 생성
 dist -> yarn build
 .yarn, node_modules -> package library
-index.html -> 
+
 ``` 
