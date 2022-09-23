@@ -5,6 +5,7 @@
         </h1>
         <button
             type="button"
+            class="btn btn-primary"
             @click="chagePassword"
         >
             count is {{ count }}

@@ -33,7 +33,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@popperjs/core", "npm:2.11.6"],\
             ["axios", "npm:0.27.2"],\
+            ["bootstrap", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:5.2.1"],\
             ["dayjs", "npm:1.11.5"],\
             ["eslint", "npm:8.23.1"],\
             ["eslint-plugin-vue", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:9.5.1"],\
@@ -44,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite-plugin-eslint", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:1.8.1"],\
             ["vite-plugin-vue2", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:2.0.2"],\
             ["vue", "npm:2.7.10"],\
-            ["vue-router", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.6.5"],\
+            ["vue-router", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.2.0"],\
             ["vue-template-compiler", "npm:2.7.10"],\
             ["vuex", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.6.2"]\
           ],\
@@ -1042,6 +1044,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@popperjs/core", [\
+        ["npm:2.11.6", {\
+          "packageLocation": "./.yarn/cache/@popperjs-core-npm-2.11.6-5bcdc104bd-47fb328cec.zip/node_modules/@popperjs/core/",\
+          "packageDependencies": [\
+            ["@popperjs/core", "npm:2.11.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@rollup/pluginutils", [\
         ["npm:4.2.1", {\
           "packageLocation": "./.yarn/cache/@rollup-pluginutils-npm-4.2.1-0f52a5eba2-6bc41f22b1.zip/node_modules/@rollup/pluginutils/",\
@@ -1584,6 +1595,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/boolbase-npm-1.0.0-965fe9af6d-3e25c80ef6.zip/node_modules/boolbase/",\
           "packageDependencies": [\
             ["boolbase", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["bootstrap", [\
+        ["npm:5.2.1", {\
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.2.1-615925a4f6-f7d733ae5d.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "npm:5.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:5.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-76d882a1e5/0/cache/bootstrap-npm-5.2.1-615925a4f6-f7d733ae5d.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:5.2.1"],\
+            ["@popperjs/core", "npm:2.11.6"],\
+            ["@types/popperjs__core", null]\
+          ],\
+          "packagePeers": [\
+            "@popperjs/core",\
+            "@types/popperjs__core"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5122,7 +5155,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["vite-base", "workspace:."],\
+            ["@popperjs/core", "npm:2.11.6"],\
             ["axios", "npm:0.27.2"],\
+            ["bootstrap", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:5.2.1"],\
             ["dayjs", "npm:1.11.5"],\
             ["eslint", "npm:8.23.1"],\
             ["eslint-plugin-vue", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:9.5.1"],\
@@ -5133,7 +5168,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite-plugin-eslint", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:1.8.1"],\
             ["vite-plugin-vue2", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:2.0.2"],\
             ["vue", "npm:2.7.10"],\
-            ["vue-router", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.6.5"],\
+            ["vue-router", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.2.0"],\
             ["vue-template-compiler", "npm:2.7.10"],\
             ["vuex", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.6.2"]\
           ],\
@@ -5263,17 +5298,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vue-router", [\
-        ["npm:3.6.5", {\
-          "packageLocation": "./.yarn/cache/vue-router-npm-3.6.5-715b5dd93b-b014ba4cba.zip/node_modules/vue-router/",\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/vue-router-npm-3.2.0-f401b4108f-a5e05964de.zip/node_modules/vue-router/",\
           "packageDependencies": [\
-            ["vue-router", "npm:3.6.5"]\
+            ["vue-router", "npm:3.2.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.6.5", {\
-          "packageLocation": "./.yarn/__virtual__/vue-router-virtual-799df31a3e/0/cache/vue-router-npm-3.6.5-715b5dd93b-b014ba4cba.zip/node_modules/vue-router/",\
+        ["virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/vue-router-virtual-4e1dc1b7f9/0/cache/vue-router-npm-3.2.0-f401b4108f-a5e05964de.zip/node_modules/vue-router/",\
           "packageDependencies": [\
-            ["vue-router", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.6.5"],\
+            ["vue-router", "virtual:bf79f26f304f965fe2f0e0470ca970b8685c881fca7638851bd3268a9582aae818564034c147e91b75af9aee44e0152e93ab3c625e25ca185b453441c5380fcb#npm:3.2.0"],\
             ["@types/vue", null],\
             ["vue", "npm:2.7.10"]\
           ],\

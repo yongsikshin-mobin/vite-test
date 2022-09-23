@@ -5,6 +5,8 @@
 </template>
 
 <script>
+    import "bootstrap";
+    import "bootstrap/dist/css/bootstrap.min.css";
     import "./style/helper.scss";
     export default {
         name: "App"
