@@ -16,7 +16,7 @@
 
     export default {
         name: "MainLayout",
-        components: {MainLayoutHeader, MainLayoutBody, MainLayoutFooter}
+        components: { MainLayoutHeader, MainLayoutBody, MainLayoutFooter }
     };
 </script>
 

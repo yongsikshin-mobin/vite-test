@@ -17,14 +17,18 @@ yarn build
 ```
 
 ```
+directroy 구조
 src - api -> rest api call
     - assets -> image, font, icon, css ...
     - components -> ui components
-    - store -> vuex modules
+    - layout -> layout
     - router -> vue router definition
     - App.vue -> 최상위 컴포넌트
     - main.js -> Vue instance 생성
-dist -> yarn build
+    - store -> vuex modules
+    - .editorconfig -> editorconfig setting (단축키 ctrl+alt+l)
+    - .eslintrc.cjs -> lint setting
+index.html -> 최상위 템플릿
+dist -> yarn build시 생성 운영배포시 필요
 .yarn, node_modules -> package library
-
-``` 
+```

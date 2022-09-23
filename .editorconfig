@@ -13,3 +13,5 @@ ij_javascript_force_semicolon_style = true
 ij_javascript_use_double_quotes = true
 ij_javascript_force_quote_style = true
 ij_vue_indent_children_of_top_level = script, template, style
+ij_vue_interpolation_wrap = normal
+ij_html_space_inside_empty_tag = true
