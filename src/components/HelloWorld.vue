@@ -22,7 +22,7 @@
             }
         },
         data() {
-            console.log("test");
+            console.log("test", this.$dayjs().format("YYYY-MM-DD"));
             console.log(import.meta.env.VITE_SOME_KEY);
             return {
                 count: 0,
