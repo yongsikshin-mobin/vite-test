@@ -1,7 +1,27 @@
-# Vue 3 + Vite
+# Vue 2 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Getting Started
 
-## Recommended IDE Setup
+```
+# 초기 실행시 yarn berry setting
+yarn set version berry
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+# localhost serve
+yarn dev
+
+# prod build
+yarn build
+```
+
+```
+src - api -> rest api call
+    - assets -> image, font, icon, css ...
+    - components -> ui components
+    - store -> vuex modules
+    - router -> vue router definition
+    - App.vue -> 최상위 컴포넌트
+    - main.js -> Vue instance 생성
+dist -> yarn build
+.yarn, node_modules -> package library
+index.html -> 
+``` 
